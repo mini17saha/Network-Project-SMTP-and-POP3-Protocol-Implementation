@@ -20,17 +20,17 @@ This project involves building a sophisticated email system that incorporates bo
 ## Usage
 
 ### User Login 
-    - user.txt contains the username and password.
+user.txt contains the username and password.
 
 ### Mail format
-    ```bash
-    From: <username>@<domain>
-    To: <username>@<domain>
-    Subject: <Email subject>
-    Body
-    .
-    ```
-    - Make sure to end with a period in a newline.
+```bash
+From: <username>@<domain>
+To: <username>@<domain>
+Subject: <Email subject>
+Body
+.
+```
+Make sure to end with a period in a newline.
 
 ### Run the program
-    Run smtpmail.c , popserver.c first and then mailclient.c
+Run smtpmail.c , popserver.c first and then mailclient.c
