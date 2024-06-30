@@ -5,28 +5,32 @@ This project involves building a sophisticated email system that incorporates bo
 
 ## Features
 
-SMTP (Simple Mail Transfer Protocol):
--Send emails to any email address.
+- **SMTP (Simple Mail Transfer Protocol):**
+    - Send emails to any email address.
 
-POP3 (Post Office Protocol version 3):
--Retrieve emails from a mail server.
--Manage email inbox, including reading, and deleting.
--Secure authentication to ensure privacy and data security.
+- **POP3 (Post Office Protocol version 3):**
+  - Retrieve emails from a mail server.
+  - Manage email inbox, including reading, deleting, and marking emails as read.
+  - Secure authentication to ensure privacy and data security.
 
-User Login:
--Secure login system requiring username and password.
--User authentication to ensure only authorized access to email functionalities.
+- **User Login:**
+  - Secure login system requiring username and password.
+  - User authentication to ensure only authorized access to email functionalities.
 
 ## Usage
 
-User Login - user.txt contains the username and password.
+### User Login 
+    - user.txt contains the username and password.
 
-Mail format -
+### Mail format
+    ```bash
     From: <username>@<domain>
     To: <username>@<domain>
     Subject: <Email subject>
     Body
     .
-Make sure to end with a period in a newline.
+    ```
+    - Make sure to end with a period in a newline.
 
-Run smtpmail.c , popserver.c first and then mailclient.c
+### Run the program
+    Run smtpmail.c , popserver.c first and then mailclient.c
