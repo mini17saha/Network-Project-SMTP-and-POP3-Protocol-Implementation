@@ -33,4 +33,4 @@ Body
 Make sure to end with a period in a newline.
 
 ### Run the program
-Run smtpmail.c , popserver.c first and then mailclient.c
+Run smtpmail.c , popserver.c first and then mailclient.c .
