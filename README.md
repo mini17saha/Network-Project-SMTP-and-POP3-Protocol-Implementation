@@ -20,6 +20,7 @@ User Login:
 ## Usage
 
 User Login - user.txt contains the username and password.
+
 Mail format -
     From: <username>@<domain>
     To: <username>@<domain>
@@ -27,4 +28,5 @@ Mail format -
     Body
     .
 Make sure to end with a period in a newline.
+
 Run smtpmail.c , popserver.c first and then mailclient.c
